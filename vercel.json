@@ -1,8 +1,8 @@
 {
   "builds": [
-    { "src": "build/web/**", "use": "@vercel/static" }
+    { "src": "web/**", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/build/web/$1" }
+    { "src": "/(.*)", "dest": "/web/$1" }
   ]
 }
